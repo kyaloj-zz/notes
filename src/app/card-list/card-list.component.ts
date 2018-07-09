@@ -12,4 +12,8 @@ export class CardListComponent implements OnInit {
   ngOnInit() {
   }
 
+  addCard(cardText: string) {
+    this.cards.push({text: cardText});
+  }
+
 }
